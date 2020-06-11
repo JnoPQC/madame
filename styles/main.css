@@ -72,11 +72,11 @@ p {
 }
 @keyframes play {
   from{
-    transform: rotateX(21deg) translate3d(0,15rem, 0);
+    transform: rotateX(21deg) translate3d(0,20rem, 0);
     opacity: 1;
   }
   to {
-    transform: rotateX(21deg) translate3d(0, -315rem, 0);
+    transform: rotateX(21deg) translate3d(0, -310rem, 0);
     opacity: 1;
   }
 }
