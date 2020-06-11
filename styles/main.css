@@ -14,26 +14,13 @@ html {
   overflow: hidden;
 }
 
-.container {
-  margin: 0 auto;
-  perspective: 380px;
-  perspective-origin: bottom;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  overflow: visible;
-  transform: scaleY(0.9);
-}
-
 .credits {
   position: absolute;
   top: 0;
   left: 15%;
   right: 15%;
   height: 100%;
-  animation: play 90s forwards;
+  animation: play 200s linear forwards;
 }
 
 .headings {
@@ -60,24 +47,23 @@ p {
   text-emphasis: center;
 
 }
-
-pre{
-  font-size: 20px;
-}
-
-.img{
+.photo{
   text-align: center;
 }
+
+.imgs{
+  width: 150px;
+  height: auto;
+}
+
+
 @keyframes play {
-  0% {
-    transform: rotateX(21deg) translate3d(0, 100rem, 0);
+  from{
+    transform: rotateX(21deg) translate3d(0,15rem, 0);
     opacity: 1;
   }
-  85% {
+  to {
+    transform: rotateX(21deg) translate3d(0, -300rem, 0);
     opacity: 1;
-  }
-  100% {
-    transform: rotateX(21deg) translate3d(0, -150rem, 0);
-    opacity: 0;
   }
 }
