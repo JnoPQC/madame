@@ -20,7 +20,7 @@ html {
   left: 15%;
   right: 15%;
   height: 100%;
-  animation: play 210s  linear forwards;
+  animation: play 220s  linear forwards;
 }
 
 .headings {
@@ -76,7 +76,7 @@ p {
     opacity: 1;
   }
   to {
-    transform: rotateX(21deg) translate3d(0, -320rem, 0);
+    transform: rotateX(21deg) translate3d(0, -315rem, 0);
     opacity: 1;
   }
 }
