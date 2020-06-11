@@ -20,7 +20,7 @@ html {
   left: 15%;
   right: 15%;
   height: 100%;
-  animation: play 200s linear forwards;
+  animation: play 210s  linear forwards;
 }
 
 .headings {
@@ -55,15 +55,28 @@ p {
   width: 150px;
   height: auto;
 }
+.imgs2{
+  width: 150px;
+  height: 208px;
+}
 
+.imgs3{
+  width: auto;
+  height: 300px;
+}
 
+.te{
+  text-align: center;
+  color: red; 
+  font-size: 50px;
+}
 @keyframes play {
   from{
     transform: rotateX(21deg) translate3d(0,15rem, 0);
     opacity: 1;
   }
   to {
-    transform: rotateX(21deg) translate3d(0, -300rem, 0);
+    transform: rotateX(21deg) translate3d(0, -320rem, 0);
     opacity: 1;
   }
 }
